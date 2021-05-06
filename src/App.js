@@ -1,10 +1,13 @@
-import Navbar from "./components/Navbar/Navbar";
+import React, { Fragment } from "react";
 
+import Navbar from "./components/Navbar/Navbar";
+import GlobalStyle from "./GlobalStyleCom";
 const App = () => {
     return (
-        <div className="App">
+        <Fragment>
+            <GlobalStyle />
             <Navbar />
-        </div>
+        </Fragment>
     );
 };
 

@@ -13,6 +13,8 @@ a{
 }
 body{
     background-color:coral;
+    overflow-x:hidden;
+
 }
 `;
 export default GlobalStyle;
